@@ -1,10 +1,10 @@
 function forLoop(arr){
-  for(let i = 0; i < 25 ; i++){
-    if(i === 0){
-      arr[arr.length + i] = "I am 1 strange loop.";
+  for(let i = 10; i < 35 ; i++){
+    if(i === 10){
+      arr[10] = "I am 1 strange loop.";
     }
-    if(i!== 0){
-      arr[arr.length + i] = "I am " + (i + 1) + " strange loops.";
+    if(i!== 10){
+      arr[i] = "I am " + (i + 1) + " strange loops.";
     }
   }
   return arr;
