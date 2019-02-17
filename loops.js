@@ -18,5 +18,6 @@ function whileLoop(num){
 function doWhileLoop(num){
  do{
     console.log("I run once regardless.");
- }while(incrementVariable() < num);
+    --num;
+ }while(num>0);
 }
